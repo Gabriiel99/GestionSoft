@@ -4,7 +4,7 @@
 1. [Introduction](#Introduction)
 2. [Software](#Software)
 3. [Connection](#Connection)
-4. [Starting screen](#Starting screen)
+4. [Starting screen](#Starting-screen)
 5. [Login](#Login)
 6. [Access block](#Access-block)
 7. [Company Registration](#Company-Registration)
@@ -47,7 +47,7 @@ In this way, demonstrating joint work, collaboration, enthusiasm, the infinite d
 
 One of the first and most important steps to perform for the operation of this Software is to establish a connection to a database (a set of data belonging to the same context and systematically stored for later use). For this program the students decided to establish the connection with the Microsoft Access tool, a simple database, easy to understand when creating tables and making relationships between them (actions necessary for its operation). Next, the connection model can be seen in the image:
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240788732_5030528520347089_5877044068191670954_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=8Vhtuxhs54QAX9DKhEK&_nc_ht=scontent.ftuc1-2.fna&oh=188d36d70825627ecd1a8e49f43633b0&oe=614EEB1A)
 
 Before starting, you must download the Ucanaccess drivers that will allow us to connect the environment with our database, for this we can do so by going to the following link:
 http://ucanaccess.sourceforge.net/site.html
@@ -93,13 +93,13 @@ Finally, we return this connection to the method.
 
 To finish we create a Main method that will allow us to test the connection, when executing it must send us a message of the Correct Connection:
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240808330_5030528463680428_2105631339110955004_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=WQAfRblYV8sAX_V-g1T&_nc_ht=scontent.ftuc1-2.fna&oh=fef0e42ef6e6f6efe839a585d599bec3&oe=6150EBD1)
 
 In this way, our Access database is fully connected with the eclipse development environment.
 
 ## 4.Starting screen
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240779387_5030528467013761_8707536519771171222_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=0cBed2JTAF0AX_Z9HE_&_nc_ht=scontent.ftuc1-2.fna&oh=a8def64d35a29faa60a9cd2b12f69c81&oe=6150BFAD)
 
 The home screen serves the function of welcoming the user or company to register.
 It contains an encoding to not close by means of the cross that contains the window:
@@ -144,7 +144,7 @@ The Accept button is what the next window will not bring, which in this case wil
 
 The User window fulfills the function of taking a User Name and its respective password already registered.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/238658117_5030528380347103_8751053443952335864_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=b9115d&_nc_ohc=A88XovNeBhcAX8tdPJo&_nc_ht=scontent.ftuc1-2.fna&oh=5ba695b39f22e546c682e73a6fc255b3&oe=61507981)
 
 The software has two default Admin and General accounts whose passwords are "1234" and "abcd" respectively. The Admin account has all the privileges such as:
 
@@ -193,11 +193,11 @@ The query is used to perform a query or extract data from a database. In this ca
 
 Company registration is an InternalFrame that allows us to register a company in order to carry out its management.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240798833_5030528747013733_1406895204268858874_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=H0Ez3b-Mh5sAX_OnPLn&tn=ICuuEgcaK7k8X9f1&_nc_ht=scontent.ftuc1-1.fna&oh=370fa1a623c1351789e9650575822bd1&oe=614E4310)
 
 The window has the title of Company Registration, three buttons (Register, Clean and Delete), it also contains the fields in which a record will be inserted in each field according to what is requested to save it in the Access table called Company , all of this can be done by connecting to the table. For this you need to import into the Connection class, importjava.sql.Connection; and then declare it Connection with = null; With the following button called Register it can be added to the table by assigning it an action, publicvoidactionPerformed (ActionEvent arg0) {, within a block of "try-cantch" the query for the database must be performed using a text variable " Stringsql "
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240813237_5030528757013732_7239922285384313604_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=b9115d&_nc_ohc=7ZiquddnMZUAX8nbxP8&tn=ICuuEgcaK7k8X9f1&_nc_ht=scontent.ftuc1-1.fna&oh=582f78b56d1e6f18c3634f1880ef23fd&oe=614E05C8)
 
     Stringsql= "insertinto Empresa (Nombre_Empresa, CUIT, Categoria_IVA, Direccion_Empresa, Telefono_Empresa, Sucursal_Emp) values (?,?,?,?,?,?)";
     
@@ -223,7 +223,7 @@ PreparedStatementpst = con.prepareStatement (sql); , and then establish the code
       ex.printStackTrace();
             }try-catch
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240788098_5030528780347063_798811834019642387_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=b9115d&_nc_ohc=HryWFyas8BAAX9FjErC&_nc_ht=scontent.ftuc1-2.fna&oh=b0fbab798cbdac6e32446eac94a48f8e&oe=614F0541)
 
 To view the records recently added to the database, in the Company Registration window you need to create a JTable, a text variable is created to save the table titles:
 
@@ -268,11 +268,11 @@ Inside a try-catch block, the connection will be called and a vector containing 
 
 As can be seen in the coding, the following codes with setMaxWidth (0), setMinWidth (0) and setPreferredWidth (0), allow the Id of the Access database table to not be displayed in the JTable. In this way we will only put the "show" method in the encoding of the register, mostrar (); button.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240781785_5030528943680380_8628243696885497595_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=b9115d&_nc_ohc=9PL4Ssj3w_wAX8T5f1Z&_nc_ht=scontent.ftuc1-2.fna&oh=7ca7f9a50688c6127b772be75ac3a47b&oe=614FA97A)
 
 ## 8.Clean button
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240810501_5030528950347046_4641958157812797015_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=0wQE7p9FmHAAX_1dUpB&_nc_ht=scontent.ftuc1-2.fna&oh=97b5050da19c4083b1371840ecc56f99&oe=614D5F53)
 
 The function it fulfills is simple since it only clears the fields, enabling them to insert a new record.
 
@@ -290,11 +290,13 @@ The same coding that contains the button action is also included in the Register
 
 ## 9.Delete button
 
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/238280413_5030528967013711_7255136622548371920_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=b9115d&_nc_ohc=5NBESQi2kEkAX_qX0nU&_nc_ht=scontent.ftuc1-1.fna&oh=7d6af89f636beed8101403dce0587bc3&oe=614E8E91)
+
 This button fulfills the function of deleting the records from both the database and the JTable.
 Through an action that contains a try-catch block.
 Within this action, the user is warned if he really wants to delete the records by means of a message.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240757366_5030528420347099_339108950443325770_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=040Q4_PQJ2gAX_3THWD&tn=ICuuEgcaK7k8X9f1&_nc_ht=scontent.ftuc1-1.fna&oh=e6bc26de5282fa511c51795e35a04f79&oe=614F160A)
 
 
     protectedvoidbtnEliminarActionPerformed(ActionEventevt) {
@@ -336,7 +338,7 @@ Calling the connection, the show method and to clean the fields (in case the rec
 When registering an item, enter the name of the item in the field.
 When an item is entered, the program assigns it a unique code for each one, which increases from one thousand to one thousand.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240818931_5030528510347090_142940227024228105_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=b9115d&_nc_ohc=Hlgs3l05UhcAX-yfBFc&_nc_ht=scontent.ftuc1-2.fna&oh=2f3456b2602e3f74c211d82fd66f9661&oe=6150D28B)
 
 To save an item, the following libraries must be imported.
 
@@ -466,7 +468,7 @@ The first thing to do is assign an action to the button (ActionPerformed), withi
 
 Once the code to add is obtained, we proceed to connect the database indicating the corresponding fields that we want to add, these must be written in the same way as they are in our database. Then we must call the connection method with its library and declare the Statement so that the corresponding sql type statement is executed and thus declare all the data to be added one by one.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240776083_5030528537013754_3426145304187995348_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=b9115d&_nc_ohc=3pql4tUpRdcAX9LKI3E&_nc_ht=scontent.ftuc1-2.fna&oh=34f578e03f324b649aa7aff5a899c41e&oe=614E58EF)
 
 ## 14.Product inquiry
 
@@ -495,20 +497,20 @@ This will cause that when writing in the JTextField all the rows will be hidden 
         }});
 
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240795132_5030528527013755_6148997807741604947_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=b9115d&_nc_ohc=WrgIKIowiPsAX9qaVJA&_nc_ht=scontent.ftuc1-2.fna&oh=3479ba3949150965e2385b3d1535074f&oe=61505B63)
 
 ## 15.Missing Button
 
 Pressing the missing button opens a JFrame where it shows the products with a stock> = 5, this serves to keep track of the products that we must renew their stock.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240777711_5030528787013729_8018440732396530986_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=3US_FUZ1jDsAX8lqGvR&_nc_ht=scontent.ftuc1-1.fna&oh=04135857f225504e2463cd2fdb07914b&oe=614FE26C)
 
 ## 16.Print button 
 
 In any sales system it is important to control the quantity of products that are in stock. This program facilitates the task of supervising and controlling low-stock products, not allowing product shortages, since the program also makes it possible for the list of missing products to be printed to pass it on to suppliers.
 The output by the printer is composed of a header, the table in the body of the sheet and in the footer, the page number.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240788192_5030528817013726_498356803427000397_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=b9115d&_nc_ohc=k0v-Pp7lfrAAX_UjOAo&tn=ICuuEgcaK7k8X9f1&_nc_ht=scontent.ftuc1-1.fna&oh=2854e3a2a74fef6abf84721c7e0033a5&oe=614FD7F0)
 
 
 You must import the MessageFormat class, which allows you to print a header on the page.
@@ -564,13 +566,13 @@ The Insertinto and Values commands are specific to the database. Insertinto will
      catch (Exception ex) {
       JOptionPane.showMessageDialog(null, "No Se Cargaron Los Registros. "+ex);}
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240816023_5030528853680389_8248454890361499854_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=b9115d&_nc_ohc=-wxZmKk8XMcAX9vxnqv&_nc_ht=scontent.ftuc1-1.fna&oh=2b1287309d2b439375bd2936f21ff3a5&oe=61506E51)
 
 ## 18.Modify Provider
 
 To modify it is necessary to first add an action to the MouseClicked table, for this, in the desing window, right click on the table properties and go to the section “addeventhandler / Mouse / Mouse clicked. As seen below:
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240786876_5030528637013744_5105461117913809890_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=b9115d&_nc_ohc=36e_pjWTOQQAX8OSOgk&_nc_ht=scontent.ftuc1-1.fna&oh=cbdf233c7ce34a99084a305ced4bcc58&oe=6151133F)
 
 By doing this we are redirected to the source tab where we will give a task to the mouse clicked action. There we will create a variable of numeric type named Rows and value table.getSelectedRow (); What will make the table that we clicked is selected
 
@@ -589,7 +591,7 @@ The else is now used to issue an error message in case the row selection fails.
 
 Once the coding is done, a data update is required when we press the modify button, using the connection class and try catch, as already seen in the Add button.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240813214_5030529013680373_2442930167311418993_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=ozapmdp-iTYAX9jtTLC&_nc_ht=scontent.ftuc1-1.fna&oh=14da6663b9a8a32192de683cee3f7bcf&oe=614FAAAD)
 
 ## 19.Delete suppliers button
 
@@ -616,7 +618,7 @@ Finally, the catch will be used to display an error message
     catch (Exception ex) {
     JOptionPane.showMessageDialog(null, "•roveedor No Eliminado! "+ex);}
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240821574_5030528543680420_5940116023653018523_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=s6UnmESLVWIAX_SN7aM&_nc_ht=scontent.ftuc1-2.fna&oh=338e3ff074d16017d8119ba99f282bd4&oe=6150D7DF)
 
 ## 20.Billing: Sale Counter
 
@@ -625,7 +627,7 @@ This screen consists of the division into three parts,
 ● Products with the Search Products Button.
 ● Sale with the Invoice Button.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240802234_5030529060347035_2510501050670930557_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=b9115d&_nc_ohc=X8CvCLrGhCEAX8QpPng&_nc_ht=scontent.ftuc1-2.fna&oh=a531e46cff3a2cc5aa1f74939da62b62&oe=614F2D75)
 
 To search for products and customers, the connection must be declared and established, which connects to the database and shows the records loaded in the grid, here we have the tableMouseOnClicked event, its function is to select a record and replace them in the text fields for this data to be sent, this search also has a Send button, where it will transport the selected data to the corresponding fields on the Sale screen. To achieve this, the import of the library must be implemented.
 import.java.awt.event.MouseEvent;
@@ -652,7 +654,7 @@ It must be connected to the database indicating the corresponding fields that we
 This JFrame is oriented to the application and implementation of a code fragment, which will allow us to open a web page from a Java application, this fragment will be placed inside a method. This procedure becomes very important when, for example, we want to direct our clients to our website, from the program that we have just developed.
 What we do in this code snippet is basically create a "try-catch" block. Inside the "try", what we will do is use the "Desktop" Class, and therefore the ".getDesktop ()" method; which leads us to execute and obtain an instance of a native desktop application that allows handling a URI (UniformResourceIdentifier) ​​or a file; that is, we can launch applications such as browsers, email clients, and specific programs that allow us to open, edit or print files. Next we use the ".browse ()" method to launch the default browser of our system. We pass a parameter to this method, which in this case is an instance of the Class "URI"; that is, "new URI ()", and the parameter that we pass will be a String, which will contain the url of the web page that you want to open.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240804592_5030529070347034_3525619368014589815_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=b9115d&_nc_ohc=TaJTkHVDPacAX-3cQ-Q&_nc_ht=scontent.ftuc1-1.fna&oh=093cba8db77364fd54b31bc53ee35164&oe=614EAEB6)
 
     public voidactionPerformed(ActionEvent arg0) {
     if(java.awt.Desktop.isDesktopSupported()){
@@ -667,4 +669,4 @@ What we do in this code snippet is basically create a "try-catch" block. Inside 
 
 This JFrame has a brief information on who the GestionSoft developers are, the names of each one and a photo presenting them.
 
-![Image text](/path/to/the/screenshot.png)
+![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240801394_5030528557013752_6028406646243565189_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=b9115d&_nc_ohc=aZGxdwFJKbUAX-j34vH&tn=ICuuEgcaK7k8X9f1&_nc_ht=scontent.ftuc1-2.fna&oh=92eb6f2a0a0e203025b1c56e4b503e25&oe=6150D90E)
