@@ -2,30 +2,30 @@
 # GestionSoft
 
 ## Table of Contents
-1. [Introduction](#Introduction)
-2. [Software](#Software)
-3. [Connection](#Connection)
-4. [Starting screen](#Starting-screen)
-5. [Login](#Login)
-6. [Access block](#Access-block)
-7. [Company Registration](#Company-Registration)
-8. [Clean button](#Clean-button)
-9. [Delete button](#Delete-button)
-10. [Registration of the item](#roti)
-11. [Add button: item](#abi)
-12. [Product Registration](#Product-Registration)
-13. [Add button: Products](#abp)
-14. [Product inquiry](#Product-inquiry)
-15. [Missing Button](#Missing-Button)
-16. [Print button](#Print-button)
-17. [High supplier](#High-supplier)
-18. [Modify Provider](#Modify-Provider)
-19. [Delete suppliers button](#dsb)
-20. [Billing: Sale Counter](#bsc)
-21. [Add button](#Add-button)
-22. [Invoice button](#Invoice-button)
-23. [Social networks](#Social-networks)
-24. [About us](#About-us)
+● [Introduction](#Introduction)
+● [Software](#Software)
+● [Connection](#Connection)
+● [Starting screen](#Starting-screen)
+● [Login](#Login)
+● [Access block](#Access-block)
+● [Company Registration](#Company-Registration)
+● [Clean button](#Clean-button)
+● [Delete button](#Delete-button)
+● [Registration of the item](#roti)
+● [Add button: item](#abi)
+● [Product Registration](#Product-Registration)
+● [Add button: Products](#abp)
+● [Product inquiry](#Product-inquiry)
+● [Missing Button](#Missing-Button)
+● [Print button](#Print-button)
+● [High supplier](#High-supplier)
+● [Modify Provider](#Modify-Provider)
+● [Delete suppliers button](#dsb)
+● [Billing: Sale Counter](#bsc)
+● [Add button](#Add-button)
+● [Invoice button](#Invoice-button)
+● [Social networks](#Social-networks)
+● [About us](#About-us)
 
 
 
@@ -35,7 +35,7 @@ Soft Management is a system designed by students of the Higher Technique in Soft
 The idea arose after a proposal by Professor María Emilia Cuello (Professor of the C&P Institute and Professor of the students), in order to present a sample of what the students learned during the 1st. It was gaining strength as new ideas arrived and were coordinated in order to achieve effective and efficient software when installing and running its actuators in the different labor fields.
 With clear ideas of what they wanted for their program, these students divided their tasks and in small groups decided to approach and put their hands to work on said Software ...
 
-## 2.Software
+## Software
 
 ### Objectives?:
 A first idea in total unanimity, was to create a system with the objective of registering sales of a business (a generic type business). In this case, the students chose as an example to record sales of a bookstore. This emerged in a dialogue with the need to help one of the members of the student body, that is, one of these students had a bookstore and lacked a system that could fully control their business. From there this first objective arose with the idea of ​​controlling its Stock, registering new clients and invoicing among others.
@@ -45,7 +45,7 @@ After realizing the idea about the objective of this software, the students bega
 Among so many ideas contributed, one came in common for the "Great Majority" and it was to establish or face, by a name that was in accordance with the system and at the same time with its objective, that is how the name of Management was generated, alluding to to its meaning as a set of operations that are carried out to direct and manage a business or a company. But not satisfied and seeing the cloudiness that a simple and solitary "Management" proposed, the students decided to concatenate a second name in reference to the software they were creating and at the same time honoring the name of the institute in which they were studying C&P - Soft. This is how the name -Gestión Soft- was established as the name of the program, allowing students to advance with it.
 In this way, demonstrating joint work, collaboration, enthusiasm, the infinite desire to learn, listen and contribute, these students got down to work together with the assistance and collaboration of the tutor teachers, to develop this Software step by step. with an excellent final review. (In later chapters we will be able to observe how it works and how it was created).
 
-## 3.Connection
+## Connection
 
 One of the first and most important steps to perform for the operation of this Software is to establish a connection to a database (a set of data belonging to the same context and systematically stored for later use). For this program the students decided to establish the connection with the Microsoft Access tool, a simple database, easy to understand when creating tables and making relationships between them (actions necessary for its operation). Next, the connection model can be seen in the image:
 
@@ -99,7 +99,7 @@ To finish we create a Main method that will allow us to test the connection, whe
 
 In this way, our Access database is fully connected with the eclipse development environment.
 
-## 4.Starting screen
+## Starting screen
 
 ![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240779387_5030528467013761_8707536519771171222_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=0cBed2JTAF0AX_Z9HE_&_nc_ht=scontent.ftuc1-2.fna&oh=a8def64d35a29faa60a9cd2b12f69c81&oe=6150BFAD)
 
@@ -142,7 +142,7 @@ The Accept button is what the next window will not bring, which in this case wil
             Inicio.this.dispose();					
           } });
 
-## 5.Login
+## Login
 
 The User window fulfills the function of taking a User Name and its respective password already registered.
 
@@ -160,7 +160,7 @@ The General account has all of these restricted options, but you can:
 ● Register items, suppliers, customers and Stock
 ● Register invoices.
 
-## 6.Access block
+## Access block
 
 If both the username and / or password are entered incorrectly 3 times, an error message will appear asking you to contact the Administrator. The user will not be able to enter until the error is corrected. This is accomplished in the following way, a variable of type integer (int) called error:
 
@@ -191,7 +191,7 @@ The query is used to perform a query or extract data from a database. In this ca
         }
 
 
-## 7.Company Registration
+## Company Registration
 
 Company registration is an InternalFrame that allows us to register a company in order to carry out its management.
 
@@ -272,7 +272,7 @@ As can be seen in the coding, the following codes with setMaxWidth (0), setMinWi
 
 ![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240781785_5030528943680380_8628243696885497595_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=b9115d&_nc_ohc=9PL4Ssj3w_wAX8T5f1Z&_nc_ht=scontent.ftuc1-2.fna&oh=7ca7f9a50688c6127b772be75ac3a47b&oe=614FA97A)
 
-## 8.Clean button
+## Clean button
 
 ![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240810501_5030528950347046_4641958157812797015_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=0wQE7p9FmHAAX_1dUpB&_nc_ht=scontent.ftuc1-2.fna&oh=97b5050da19c4083b1371840ecc56f99&oe=614D5F53)
 
@@ -290,7 +290,7 @@ The function it fulfills is simple since it only clears the fields, enabling the
 
 The same coding that contains the button action is also included in the Register button, so that after inserting a record, the fields are automatically cleared.
 
-## 9.Delete button
+## Delete button
 
 ![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/238280413_5030528967013711_7255136622548371920_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=b9115d&_nc_ohc=5NBESQi2kEkAX_qX0nU&_nc_ht=scontent.ftuc1-1.fna&oh=7d6af89f636beed8101403dce0587bc3&oe=614E8E91)
 
@@ -335,7 +335,7 @@ Calling the connection, the show method and to clean the fields (in case the rec
     }
     
 
-## 10.Registration of the item
+## Registration of the item
 
 When registering an item, enter the name of the item in the field.
 When an item is entered, the program assigns it a unique code for each one, which increases from one thousand to one thousand.
@@ -353,7 +353,7 @@ we proceed to create the following variable "con" globally in this way it will a
 
 two variables of type integer P and num are also declared. A num will start with the value of 1000.
 
-## 11.Add button: item
+## Add button: item
 
 A repetitive cycle must be declared, in this case the FOR (cycle for) is used, which allows you to go through the table and find out what is the code that was found in that route. It is stored in a variable to the code to be able to increase it.
 In order to increase the code that is stored in the variable P, it must be converted to an integer since it is stored in the table as text (String).
@@ -404,7 +404,7 @@ Finally, taking into account the preparedStatementpst object, the executeUpdate 
     pst.setString(2, textField.getText());
     pst.executeUpdate(); 
 
-## 12.Product Registration
+## Product Registration
 
 To register a product, the first thing we must do is select the item of the product that we are going to load, one of the codes loaded previously must be selected from the JComboBox, for this the JComboBox must perform a search in the database and take only the codes to show it in said combo, for this we carry out a method called public voidcombo ()
 
@@ -448,7 +448,7 @@ Once the combo has loaded the data from the database, the next thing is to put a
             }
       }
 
-## 13.Add button: Products
+## Add button: Products
 
 The first thing to do is assign an action to the button (ActionPerformed), within this action we carry out the following coding where we declare 2 variables of type Int operation and p, the variable operation saves the code that we select in the combo and in turn adds + 1, we use a for to go through the entire table and the variable p saves the value of column 0 which is the code column, a second for is used that goes through the table again and we perform an if condition where we compare if the variable p is less than / equal to operation, the operation variable is increased +1 and saved, otherwise (else) the operation variable is decreased -1 and saved.
 
@@ -472,7 +472,7 @@ Once the code to add is obtained, we proceed to connect the database indicating 
 
 ![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240776083_5030528537013754_3426145304187995348_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=b9115d&_nc_ohc=3pql4tUpRdcAX9LKI3E&_nc_ht=scontent.ftuc1-2.fna&oh=34f578e03f324b649aa7aff5a899c41e&oe=614E58EF)
 
-## 14.Product inquiry
+## Product inquiry
 
 To perform the product query we use a grid, which is loaded with the database records, and a JTextField to filter the grid records.
 We must import the TableRowSorter class that allows us to sort and filter the rows of a JTable:
@@ -501,13 +501,13 @@ This will cause that when writing in the JTextField all the rows will be hidden 
 
 ![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240795132_5030528527013755_6148997807741604947_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=b9115d&_nc_ohc=WrgIKIowiPsAX9qaVJA&_nc_ht=scontent.ftuc1-2.fna&oh=3479ba3949150965e2385b3d1535074f&oe=61505B63)
 
-## 15.Missing Button
+## Missing Button
 
 Pressing the missing button opens a JFrame where it shows the products with a stock> = 5, this serves to keep track of the products that we must renew their stock.
 
 ![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240777711_5030528787013729_8018440732396530986_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=3US_FUZ1jDsAX8lqGvR&_nc_ht=scontent.ftuc1-1.fna&oh=04135857f225504e2463cd2fdb07914b&oe=614FE26C)
 
-## 16.Print button 
+## Print button 
 
 In any sales system it is important to control the quantity of products that are in stock. This program facilitates the task of supervising and controlling low-stock products, not allowing product shortages, since the program also makes it possible for the list of missing products to be printed to pass it on to suppliers.
 The output by the printer is composed of a header, the table in the body of the sheet and in the footer, the page number.
@@ -530,7 +530,7 @@ In the next step, a "try-catch" block is set; and within it the JTableprint () m
             System.err.format("Error de impresion ", e.getMessage());
               }
 
-## 17.High supplier
+## High supplier
 The first step is within our jFrame to add various text fields so that when entering the data we require, these are saved in their corresponding location within the database. We should also add some jLabels in the form of the title of each text so that the user understands what data to enter in the fields.
 Add button:
 From the design window, we will double click to go to the command line that gives the button actions, as seen below:
@@ -570,7 +570,7 @@ The Insertinto and Values commands are specific to the database. Insertinto will
 
 ![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240816023_5030528853680389_8248454890361499854_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=b9115d&_nc_ohc=-wxZmKk8XMcAX9vxnqv&_nc_ht=scontent.ftuc1-1.fna&oh=2b1287309d2b439375bd2936f21ff3a5&oe=61506E51)
 
-## 18.Modify Provider
+## Modify Provider
 
 To modify it is necessary to first add an action to the MouseClicked table, for this, in the desing window, right click on the table properties and go to the section “addeventhandler / Mouse / Mouse clicked. As seen below:
 
@@ -595,7 +595,7 @@ Once the coding is done, a data update is required when we press the modify butt
 
 ![Image text](https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/240813214_5030529013680373_2442930167311418993_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=b9115d&_nc_ohc=ozapmdp-iTYAX9jtTLC&_nc_ht=scontent.ftuc1-1.fna&oh=14da6663b9a8a32192de683cee3f7bcf&oe=614FAAAD)
 
-## 19.Delete suppliers button
+## Delete suppliers button
 
 This button also requires a try catch where we are going to use the get connection method of the connection class. A String variable with sql name and value "DeleteFrom Providers whereCod_Prov =?" Will be declared;
 In this case, the selected provider is eliminated according to its code, since this is unique and will never be repeated, thus avoiding errors such as eliminating more than one provider.
@@ -622,7 +622,7 @@ Finally, the catch will be used to display an error message
 
 ![Image text](https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.6435-9/240821574_5030528543680420_5940116023653018523_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=b9115d&_nc_ohc=s6UnmESLVWIAX_SN7aM&_nc_ht=scontent.ftuc1-2.fna&oh=338e3ff074d16017d8119ba99f282bd4&oe=6150D7DF)
 
-## 20.Billing: Sale Counter
+## Billing: Sale Counter
 
 This screen consists of the division into three parts,
 ● Clients with the Search Clients Button.
@@ -634,7 +634,7 @@ This screen consists of the division into three parts,
 To search for products and customers, the connection must be declared and established, which connects to the database and shows the records loaded in the grid, here we have the tableMouseOnClicked event, its function is to select a record and replace them in the text fields for this data to be sent, this search also has a Send button, where it will transport the selected data to the corresponding fields on the Sale screen. To achieve this, the import of the library must be implemented.
 import.java.awt.event.MouseEvent;
 
-## 21.Add button
+## Add button
 
 It indicates the action of loading the products in the grid, performing arithmetic mathematical calculations to calculate the total amount of the products that one carries. To perform this calculation, String type and Double type variables must be defined, they are defined this way because the JTextFields only comprise texts and must be converted to numbers so that the corresponding calculations can be carried out.
 
@@ -643,7 +643,7 @@ It indicates the action of loading the products in the grid, performing arithmet
     TOTAL=PRECIO*CANTIDAD;
     Total=TOTAL.toString()+“0”;
     
-## 22.Invoice button
+## Invoice button
 
 It must be connected to the database indicating the corresponding fields that we want to record that correspond to our table where we will store the data and we pass the parameters to it so that they are recorded. Here we must call the connection method with its library, declaration of the Statement so that the corresponding sql type statement is executed.
 
@@ -651,7 +651,7 @@ It must be connected to the database indicating the corresponding fields that we
     con=Conexión.obtenerConexion();
     PreparedStatementpst = prepareStatement(sql);
 
-## 23.Social networks
+## Social networks
 
 This JFrame is oriented to the application and implementation of a code fragment, which will allow us to open a web page from a Java application, this fragment will be placed inside a method. This procedure becomes very important when, for example, we want to direct our clients to our website, from the program that we have just developed.
 What we do in this code snippet is basically create a "try-catch" block. Inside the "try", what we will do is use the "Desktop" Class, and therefore the ".getDesktop ()" method; which leads us to execute and obtain an instance of a native desktop application that allows handling a URI (UniformResourceIdentifier) ​​or a file; that is, we can launch applications such as browsers, email clients, and specific programs that allow us to open, edit or print files. Next we use the ".browse ()" method to launch the default browser of our system. We pass a parameter to this method, which in this case is an instance of the Class "URI"; that is, "new URI ()", and the parameter that we pass will be a String, which will contain the url of the web page that you want to open.
