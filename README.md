@@ -27,7 +27,7 @@
 24. [About us](#About-us)
 
 
-## 1.[Introduction](#Introduction)
+## 1.<a name=”Introduction″>Introduction</a>
 
 Soft Management is a system designed by students of the Higher Technique in Software Development of the C&P Soft Institute.
 The idea arose after a proposal by Professor María Emilia Cuello (Professor of the C&P Institute and Professor of the students), in order to present a sample of what the students learned during the 1st. It was gaining strength as new ideas arrived and were coordinated in order to achieve effective and efficient software when installing and running its actuators in the different labor fields.
