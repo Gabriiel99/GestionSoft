@@ -11,17 +11,17 @@
 * [Company Registration](#Company-Registration)
 * [Clean button](#Clean-button)
 * [Delete button](#Delete-button)
-* [Registration of the item](#roti)
-* [Add button: item](#abi)
+* [Registration of the item](#Registration-of-the-item)
+* [Add button item](#Add-button-item)
 * [Product Registration](#Product-Registration)
-* [Add button: Products](#abp)
+* [Add button Products](#Add-button-Products)
 * [Product inquiry](#Product-inquiry)
 * [Missing Button](#Missing-Button)
 * [Print button](#Print-button)
 * [High supplier](#High-supplier)
 * [Modify Provider](#Modify-Provider)
-* [Delete suppliers button](#dsb)
-* [Billing: Sale Counter](#bsc)
+* [Delete suppliers button](#Delete-suppliers-button)
+* [Billing Sale Counter](#Billing-Sale-Counter)
 * [Add button](#Add-button)
 * [Invoice button](#Invoice-button)
 * [Social networks](#Social-networks)
@@ -667,7 +667,7 @@ What we do in this code snippet is basically create a "try-catch" block. Inside 
     desktop.browse(uri);
       } catch (URISyntaxException | IOException ex) {}}}}});
 
-# 24.About us
+## About us
 
 This JFrame has a brief information on who the GestionSoft developers are, the names of each one and a photo presenting them.
 
